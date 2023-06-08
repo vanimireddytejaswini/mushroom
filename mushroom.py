@@ -1,13 +1,13 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from scikit-learn import metrics
-from scikit-learn.linear_model import LogisticRegression
-from scikit-learn.ensemble import RandomForestClassifier
-from scikit-learn.preprocessing import LabelEncoder,OneHotEncoder
-from scikit-learn.model_selection import train_test_split
-from scikit-learn.metrics import ConfusionMatrixDisplay,RocCurveDisplay,PrecisionRecallDisplay
-from scikit-learn.metrics import precision_score,recall_score
+from sklearn import metrics
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import LabelEncoder,OneHotEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import ConfusionMatrixDisplay,RocCurveDisplay,PrecisionRecallDisplay
+from sklearn.metrics import precision_score,recall_score
 
 #Start mapping the logic to built the interface
 st.set_option('deprecation.showPyplotGlobalUse', False)
