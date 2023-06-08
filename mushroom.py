@@ -10,7 +10,7 @@ from sklearn.metrics import ConfusionMatrixDisplay,RocCurveDisplay,PrecisionReca
 from sklearn.metrics import precision_score,recall_score
 
 #Start mapping the logic to built the interface
-st.set_option('deprecation.showPyplotGlobalUse',False)
+st.set_option('deprecation.showPyplotGlobalUse',false)
 def main():
     st.title("Mushroom Classifier")
     st.sidebar.title("App Sidebar")
