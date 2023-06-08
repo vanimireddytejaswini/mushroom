@@ -10,7 +10,7 @@ from scikit-learn.metrics import ConfusionMatrixDisplay,RocCurveDisplay,Precisio
 from scikit-learn.metrics import precision_score,recall_score
 
 #Start mapping the logic to built the interface
-st.set_option('deprecation.showPyplotGlobalUse',false)
+st.set_option('deprecation.showPyplotGlobalUse', False)
 def main():
     st.title("Mushroom Classifier")
     st.sidebar.title("App Sidebar")
